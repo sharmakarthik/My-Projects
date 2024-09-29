@@ -1,0 +1,32 @@
+IEEE.02 June 2021;Ghulam Musa Raza; Zainab Saeed Butt; Seemab Latif; Abdul Wahid
+tf-idf vectorization
+to classify our data into number based vectors, natural language processing techniques for feature extraction
+we use count vectorizer and tf-idf have been used to get a bag of words from the data.
+tf-idf used count vectorizer to count the term frequecies(tf) and also inverse document frequency(idf) which help evaluating the 
+measure of word relevancy appearing in multiple documents. one dataset is propesd by the team and an other one is pre trained model called gpt2 model
+to get our input into machine learning format we have converted the data into vectors that represent the words into numbers
+by using feature extraction techniques of NLP like count vectorizer and tf-idf.
+it is useful to assign relevance scores for potential answers.
+TF-IDF constitute two terms: Term Frequency (TF) and
+Inverse Document Frequency (IDF). ‘TF’ tells us that if a term
+‘t’ is very frequent in a document ‘d’ then t is very important
+for d. Similarly, ‘IDF’ measures the rarity of ‘t’ with respect to
+the entire collection i.e. terms that appear in many documents
+are less informative. The number of documents which contain the term t in the entire collection gives its document frequency
+or global frequency.
+there are three modified tf-idf techniques are proposed which improves the text classification process:
+1.TF-IDF based on modified inverse document frequency: Consider those words which are very frequent in documents and also in the entire collection
+(except stop-words). This helps to increase the discriminative power of traditional IDF.
+Weight(i, j) = W2ij = T F(i, j)  ModifiedIDF (i)
+2. TF-IDF based on class frequency: The class frequency helps to identify whether a term is relevant to
+a particular class or not. It gives weight to the terms
+in class characteristics. In text classification, adding
+weights to the terms based on their class frequency
+will improve the classification accuracy.
+3. TF-IDF based on normalized length: By adding the
+length normalizing factor to TF-IDF will increase
+the importance of TF and reduces the weights of
+the terms which are less frequent but have relatively
+higher TF-weighting in the document.
+
+

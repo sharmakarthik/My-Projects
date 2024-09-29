@@ -1,0 +1,30 @@
+IEEE.13 September 2012;Jianliang Meng; Junwei Zhang; Haoquan Zhao
+speech recognition is the machine on the statement or command of human speech to identify and understand
+and react accordingly. it allows the bot to automatically identify and understand human spoken language through signal processing and pattern recognition
+the voice through the microphone is converted into an electrical signal. 
+Representative speech recognition methods include
+dynamic time warping (DTW), hidden Markov model
+(HMM), vector quantization (VQ), artificial neural network
+(ANN), support vector machine (SVM) and so on.The article
+focuses on two methods of hidden Markov model (HMM)
+and artificial neural network (ANN).
+The HMM model parameters represent the time-varying
+characteristics of the voice signal.it uses statistical methods of training the
+underlying acoustic model and the upper voice model into
+the unified voice recognition search algorithm can obtain
+better recognition results, and can be used for continuous
+speech recognition, but the drawback is the need to be very
+sophisticated calculations and a longer training sequence. 
+A. Application of speech recognition technology
+there are many speech recognition applications like system-VRCP system
+developed by AT&T in 1992. In September 1996, Charles Schwab launched the first
+large-scale commercial speech recognition application
+systems: the stock quotation system.
+another development branch of speech recognition technology is the development of the telephone voice recognition technology. this will be able to telephone inquires, automatic writing
+as well as some specialized operations. it can provide 24/7 phone banking service
+B. The facing problems 
+there are many problems faced by the speech recognition and it is mainly reflected on the dependence of the environment
+if the environment is noisy then it is very difficult to progress the speech
+like voice, slow speech rate etc. 
+
+

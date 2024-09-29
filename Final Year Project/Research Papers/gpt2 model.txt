@@ -1,0 +1,18 @@
+GPT-2 Model
+
+to generate text there are many methods  like Recurrent neural network(RNN) or Long-Short term memory(Lstm)
+and the encode-decode method and the sequence to sequence method.
+it converts sentence as a fixed vector firstly, and then uses vector to generate the sentence. there are some language models like gpt2 and bert for
+text generation. the open-ai gpt2 model is built using a transformer module, which is decoder-only module.
+the model takes token as input and generate outputs only one token at a time. after each token is generated, the token is added to previously generated token sequence
+while using the model, the main task is to generate sentence based on the keyword. the main idea of the model is to generate the answer in a loop based on the input sequence of known text
+GPT-2 is a Transformer architecture that was notable for its size (1.5 billion parameters) on its release. The model is pretrained on a WebText dataset - text from 45 million website links. It largely follows the previous GPT architecture with some modifications:
+Layer normalization is moved to the input of each sub-block, similar to a pre-activation residual network and an additional layer normalization was added after the final self-attention block.
+A modified initialization which accounts for the accumulation on the residual path with model depth is used. Weights of residual layers are scaled at initialization by a factor of 
+ where 
+ is the number of residual layers.
+
+The vocabulary is expanded to 50,257. The context size is expanded from 512 to 1024 tokens and a larger batch size of 512 is used.
+in the code, the bot first checks in the json file if the user iunput is not present in the data file the it is 
+navigated into gpt2 model.
+it will take 30-45 seconds of time to load the data and check in the vocabulary that consists of fifty thousand
